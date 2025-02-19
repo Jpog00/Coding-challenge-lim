@@ -9,7 +9,6 @@
 
 body{
     background-image: url(../img/background.jpg);
-    height: 900px;
     background-size: cover;
 }
 
@@ -47,7 +46,7 @@ header{
 /* main */
 
 .posizione-monopattino p{
-    padding: 20px 0;
+    padding: 5px 0;
 }
 .info-monopattino{
     margin-top: 20px;
