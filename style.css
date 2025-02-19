@@ -1,0 +1,70 @@
+/* css-reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* generals */
+
+body{
+    background-image: url(../img/background.jpg);
+    height: 900px;
+    background-size: cover;
+}
+
+/* utility */
+
+.container{
+    max-width: 900px;
+    margin: 40px auto;
+    background-color: rgba(0, 0, 0, 0.58);
+    border-radius: 10px;
+    padding: 80px;
+}
+.font-white{
+    color: white;
+}
+
+/* header */
+ 
+header{
+    text-align: center
+}
+#logo{
+    width: 35%;
+}
+#titolo{
+    color: lime;
+    padding: 10px;
+}
+.button-menu{
+    height: 40px;
+    background-color: lime;
+    padding: 10px 0;
+}
+
+/* main */
+
+.posizione-monopattino p{
+    padding: 20px 0;
+}
+.info-monopattino{
+    margin-top: 20px;
+}
+.livello-carica{
+    height: 30px;
+    border-radius: 5px;
+}
+.carico{
+    width: 65%;
+    background-color: rgb(50, 212, 50);
+}
+.scarico{
+    width: 15%;
+    background-color: rgb(166, 53, 38);
+}
+.neutro{
+    width: 40%;
+    background-color: rgb(211, 166, 70);
+}
